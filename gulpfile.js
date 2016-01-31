@@ -1,3 +1,4 @@
+var del = require('del');
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
 var changed = require('gulp-changed');
@@ -5,6 +6,9 @@ var changed = require('gulp-changed');
 var BUILD_FOLDER = './build';
 
 gulp.task('default', function() {
+
+gulp.task('clean', function() {
+  return del(['build/**/*']);
 });
 
 gulp.task('typescript', function() {
