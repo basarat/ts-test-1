@@ -14,7 +14,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('typescript', function() {
-  var tsResult = gulp.src([ 'src/**/*.ts', 'typings/**/*.d.ts' ])
+  var tsResult = gulp.src('src/**/*.ts')
       .pipe(changed(BUILD_FOLDER, { extension: 'js' }))
       .pipe(ts({
         noExternalResolve: true,

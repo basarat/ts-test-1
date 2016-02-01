@@ -1,4 +1,8 @@
 {
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "ambientDependencies": {
+    "express": "github:DefinitelyTyped/DefinitelyTyped/express/express.d.ts#dd4626a4e23ce8d6d175e0fe8244a99771c8c3f2",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#1c56e368e17bb28ca57577250624ca5bd561aa81"
+  }
 }
