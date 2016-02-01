@@ -5,7 +5,8 @@ var changed = require('gulp-changed');
 
 var BUILD_FOLDER = './build';
 
-gulp.task('default', function() {
+gulp.task('default', ['clean', 'typescript'], function() {
+});
 
 gulp.task('clean', function() {
   return del(['build/**/*']);
