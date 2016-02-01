@@ -20,5 +20,8 @@
     "tslint": "^3.3.0",
     "typescript": "^1.7.5",
     "typings": "^0.6.4"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
   }
 }
